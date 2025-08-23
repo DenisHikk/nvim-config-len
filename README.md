@@ -10,6 +10,6 @@ My config for neovim
 - Copy to folder ~/.config/nvim/
 
 ### Plugins 
-- [neo-tree.nvim)](https://github.com/nvim-neo-tree/neo-tree.nvim)
+- [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
