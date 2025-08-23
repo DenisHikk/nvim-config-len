@@ -7,7 +7,6 @@ opt.tabstop = 4 			-- Tab equals 4 spaces when reading files
 opt.shiftwidth = 4
 opt.smartindent = true         -- Smart auto-indentation
 opt.wrap = false               -- Do not wrap long lines
-opt.termguicolors = true       -- Enable 24-bit colors
 opt.splitright = true          -- Vertical splits open to the right
 opt.splitbelow = true          -- Horizontal splits open below
 opt.ignorecase = true          -- Ignore case when searching...
