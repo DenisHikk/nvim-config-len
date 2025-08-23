@@ -6,3 +6,4 @@ local opts = { noremap = true, silent = true }
 -- NeoTree keymaps
 map('n', '<leader>e', ':Neotree float focus<CR>')
 map('n', '<leader>o', ':Neotree git_status<CR>')
+map('n', '<C-n>', ':Neotree toggle left<CR>')

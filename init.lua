@@ -15,6 +15,7 @@ require("plugins.treesitter")
 require("plugins.lsp")
 require("plugins.cmp")
 require("plugins.mason")
+require("plugins.telescope")
 
 -- Check if win32
 if is_win then
