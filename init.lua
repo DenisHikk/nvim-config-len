@@ -13,6 +13,8 @@ require("core.colors")
 require("plugins.neotree")
 require("plugins.treesitter")
 require("plugins.lsp")
+require("plugins.cmp")
+require("plugins.mason")
 
 -- Check if win32
 if is_win then
@@ -20,4 +22,3 @@ if is_win then
 else 
 	require("os.linux")
 end
-
