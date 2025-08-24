@@ -2,7 +2,7 @@
 vim.opt.shell = "/bin/bash"
 
 -- To enable system clipboard, install xclip/xsel/wl-clipboard and uncomment:
--- vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = "unnamedplus"
 
 -- Check for useful binaries and warn if missing
 local function warn_if_missing(bin)

@@ -8,6 +8,7 @@ My config for neovim
 
 ### Linux 
 - Copy to folder ~/.config/nvim/
+- For using clipboard to system need install **xclip** for x11 or **wl-copy** and wl-paste for Wayland
 
 ### Plugins 
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
