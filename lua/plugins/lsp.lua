@@ -1,12 +1,14 @@
 vim.lsp.enable("pyright")
 vim.lsp.enable("lua_ls")
+vim.lsp.enable("eslint_lsp")
+
 
 -- Global mappings
 -- See :help vim.diagnostic.* for docs on any of the below functions
-vim.keymap.set('n', '<leader>lD', vim.diagnostic.open_float)
+vim.keymap.set('n', '<leader>ld', vim.diagnostic.open_float)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
-vim.keymap.set('n', '<leader>ld', vim.diagnostic.setloclist)
+vim.keymap.set('n', '<leader>lD', vim.diagnostic.setloclist)
 
 vim.api.nvim_create_autocmd('LspAttach', {
 	group = vim.api.nvim_create_augroup('UserLspConfig', {}),

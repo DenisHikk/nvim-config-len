@@ -53,4 +53,11 @@ require("lazy").setup({
 		tag = '0.1.8',
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = true
+	},
+	{"stevearc/conform.nvim"},
+	{"mfussenegger/nvim-lint"}
 })

@@ -16,3 +16,14 @@ My config for neovim
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [mason.nvim](https://github.com/mason-org/mason.nvim)
+- [windwp/nvim-autopairs]()
+- [stevearc/conform]()
+- [mfussenegger/nvim-lint]
+
+### Settings JavaScript/Typescript
+- Install eslint for your project 
+- `npm i -D eslint @eslint/js typescript-eslint eslint-plugin-vue vue-eslint-parser globals`
+- Then need configuration eslint.js
+
+### Keymap 
+- ** TODO: Need write all custom keymap **

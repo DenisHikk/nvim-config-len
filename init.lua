@@ -16,6 +16,9 @@ require("plugins.lsp")
 require("plugins.cmp")
 require("plugins.mason")
 require("plugins.telescope")
+require("plugins.autopairs")
+require("plugins.nvim-lint")
+require("plugins.conform")
 
 -- Check if win32
 if is_win then
@@ -23,3 +26,4 @@ if is_win then
 else 
 	require("os.linux")
 end
+
