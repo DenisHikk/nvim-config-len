@@ -1,7 +1,7 @@
 require("mason").setup({
 	ensure_installed = {
 		-- Python
-		"pyright", 
+		"pyright",
 		-- JavaScript
 		"eslint_d",
 		-- LUA
@@ -9,7 +9,9 @@ require("mason").setup({
 		-- prettierd
 		"prettierd",
 		-- typescript
-		"typescript-language-server"
+		"typescript-language-server",
+		-- vue
+		"vue-language-server"
 	},
 	automatic_installation = true
 })
