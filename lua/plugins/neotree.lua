@@ -5,4 +5,11 @@ vim.cmd([[ let g:neo_tree_remove_legacy_command = 1 ]])
 --	text = "", texthl = "DiagnosticSignError"
 -- })
 
-require("neo-tree").setup {}
+require("neo-tree").setup {
+	filesystem = {
+		filtered_items = {
+			hide_dotfiles = false,
+			hide_gitignored = false
+		}
+	}
+}
