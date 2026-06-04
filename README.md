@@ -26,6 +26,9 @@ sudo mv tree-sitter /usr/local/bin/
 
 - node >= 26.1.0
 - npm >= 11.16.0
+- rustc 
+- ripgrep
+- tree-sitter-cli
 
 ## TODO: 
 
