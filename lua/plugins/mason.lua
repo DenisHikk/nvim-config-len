@@ -23,7 +23,8 @@ return {
 					"lua_ls",
 					"gopls",
 					"ts_ls",
-					"vue_ls"
+					"vue_ls",
+					"pyright"
 				},
 				automatic_installation = true,
 			})
@@ -57,11 +58,17 @@ return {
 			-- TypeScript/JavaScript
 			vim.lsp.config("ts_ls", {
 				capabilities = capabilities,
+				init_options = {
+					plugins = {
+					},
+				},
+				filetypes = { 'javascript', 'typescript', 'vue' }
 			})
 
 			-- Vue 
 			vim.lsp.config("vue_ls", {
 				capabilities = capabilities,
+				filetypes = { 'vue' }
 			})
 
 			-- Lua
@@ -77,11 +84,26 @@ return {
 				}
 			})
 
+			vim.lsp.config("pyright", {
+				capabilities = capabilities,
+				settings = {
+					pyright = {
+						analyses = {
+							autoSearchPath = true,
+							userLibraryCodeForTypes = true,
+							typeCheckingMode = "basic",
+							diagnosticMode = "openFilesOnly"
+						}
+					}
+				}
+			})
+
 			vim.lsp.enable({
 				"gopls",
 				"ts_ls",
 				"vue_ls",
 				"lua_ls",
+				"pyright"
 			})
 		end,
 	}
